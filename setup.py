@@ -19,7 +19,7 @@ setup(
         "fvcore>=0.1.1",  # Biblioteca core do Facebook AI Research
         "iopath>=0.1.7",  # Abstração de I/O
         "portalocker",    # Bloqueio de ficheiros para segurança
-        "faiss-gpu",      # Biblioteca de busca rápida (essencial para ReID)
+        "faiss-cpu",      # Biblioteca de busca rápida (essencial para ReID)
         "opencv-python",  # Processamento de imagem
         "pandas",         # Manipulação de dados para relatórios
     ],
